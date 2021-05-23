@@ -149,8 +149,13 @@
     margin-bottom:10px;
     border: 1px solid lightgray;
     box-shadow: 0 1px 1px gray;
+    overflow: hidden;
+    transition: 0.3s;
     
 }
+
+
+
 
 .one:nth-child(1){
     background-image: url('./images/pic1.jpg');
@@ -187,7 +192,11 @@
     width:100%;
     background-color: rgba(151, 135, 156, 0.9);
     height:150px;
-    margin-top: 200px;
+    margin-top: 310px;
+}
+
+.one:hover > .product_details{
+    margin-top:200px;
 }
 
 .product_details>h1{

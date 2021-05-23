@@ -542,7 +542,7 @@ overflow:hidden;
 
     .product_details>div>button{
         line-height: 15px;
-        
+
     }
 
     .aboutus{
@@ -557,19 +557,23 @@ overflow:hidden;
         flex-direction: column;
         width:100%;
         padding: 0px;
+        height:auto;
+        overflow:hidden;
         
     }
 
     .aboutus_img{
         width:100%;
+        
         background-position-y: -80px;
         padding: 0px;
+        background-size: cover;
     }
 
     .aboutus_details{
         width:100%;
         height:auto;
-        overflow:hidden;
+        
         
     }
 

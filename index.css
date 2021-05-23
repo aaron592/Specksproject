@@ -552,6 +552,10 @@ overflow:hidden;
         
     }
 
+    .aboutus>h1{
+        font-size: 17px;
+    }
+
     .about{
         margin-top:20px;
         flex-direction: column;
